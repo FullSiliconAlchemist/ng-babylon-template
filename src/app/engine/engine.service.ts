@@ -54,7 +54,7 @@ export class EngineService {
     this.scene.registerAfterRender(() => {
       this.sphere.rotate (
         new BABYLON.Vector3(0, 1, 0),
-        0.02,
+        0.5,
         BABYLON.Space.LOCAL
       );
     });
